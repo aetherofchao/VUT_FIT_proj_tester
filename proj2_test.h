@@ -12,11 +12,12 @@
 #	Alukard
 
 # make proj2.c
+clear
 gcc -std=c99 -Wall -Wextra -Werror proj2.c -lm -o proj2
 
 
 #	||==================||
-#	||  Input Examples  ||
+#	||	Input Examples	||
 #	||==================||
 
 # new line
@@ -95,5 +96,41 @@ echo error: invalid arguments;
 echo ;
 echo ./proj2 5 5 -5;
 ./proj2 5 5 -5;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2 5 500 .1 5;
+./proj2 5 500 .1 5;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2;
+./proj2;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2 aa;
+./proj2 aa;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2 aa aa aa aa;
+./proj2 aa aa aa aa;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2 aa 5 .1;
+./proj2 aa 5 .1;
+echo error: invalid arguments;
+
+echo ;
+echo ./proj2 0 5 .1;
+./proj2 0 5 .1;
+echo Up=0 V
+echo Ip=0 A
+
+echo ;
+echo ./proj2 5 55 inf;
+./proj2 5 55 inf;
 echo error: invalid arguments;
 

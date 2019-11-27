@@ -1,8 +1,8 @@
 # VUT_FIT_proj_tester
 
-test pro projekt 
-26.11.2019
-Alukard
+... test pro projekt 
+... 26.11.2019
+... Alukard
 
 
 ## Usage:
